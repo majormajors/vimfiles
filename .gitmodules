@@ -42,3 +42,11 @@
 	path = bundle/L9
 	url = https://github.com/slack/vim-l9.git
   ignore = untracked
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+  ignore = untracked
+[submodule "bundle/extradite"]
+	path = bundle/extradite
+	url = https://github.com/int3/vim-extradite.git
+  ignore = untracked
