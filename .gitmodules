@@ -50,3 +50,7 @@
   path = bundle/extradite
   url = https://github.com/int3/vim-extradite.git
   ignore = untracked
+[submodule "bundle/javascript"]
+  path = bundle/javascript
+  url = https://github.com/pangloss/vim-javascript
+  ignore = untracked
