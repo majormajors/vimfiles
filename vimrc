@@ -51,6 +51,9 @@ if has("autocmd")
   " Enable soft-wrapping for text files
   autocmd FileType text,markdown,html,xhtml,eruby setlocal wrap linebreak nolist
 
+  " Auto-set ft to nginx for nginx config files
+  autocmd BufRead,BufNewFile /usr/local/nginx/conf/* set ft=nginx
+
   " Put these in an autocmd group, so that we can delete them easily.
   augroup vimrcEx
   au!
