@@ -172,7 +172,7 @@ endif
 if has("gui_running")
   colorscheme railscasts
 else
-  colorscheme ir_black
+  colorscheme asu1dark
 endif
 
 " Numbers
