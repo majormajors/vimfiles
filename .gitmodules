@@ -54,3 +54,6 @@
   path = bundle/javascript
   url = https://github.com/pangloss/vim-javascript
   ignore = dirty
+[submodule "bundle/nginx"]
+	path = bundle/nginx
+	url = https://github.com/vim-scripts/nginx.vim
