@@ -222,6 +222,7 @@ map <Leader>w :call OpenURL()<CR>
 if has("gui_macvim")
   set transparency=2
   set guioptions=aAce
+  highlight StatusLine guifg=Orange
   map <D-1> :tabn 1<CR>
   map <D-2> :tabn 2<CR>
   map <D-3> :tabn 3<CR>
