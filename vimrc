@@ -100,18 +100,21 @@ map <Leader>m :Rmodel<CR>
 map <Leader>c :Rcontroller<CR>
 map <Leader>v :Rview<CR>
 map <Leader>u :Runittest<CR>
-map <Leader>f :Rfunctionaltest<CR>
-map <Leader>tm :RTmodel<CR>
-map <Leader>tc :RTcontroller<CR>
-map <Leader>tv :RTview<CR>
-map <Leader>tu :RTunittest<CR>
-map <Leader>tf :RTfunctionaltest<CR>
-map <Leader>sm :RSmodel<CR>
-map <Leader>sc :RScontroller<CR>
-map <Leader>sv :RSview<CR>
-map <Leader>su :RSunittest<CR>
-map <Leader>sf :RSfunctionaltest<CR>
+" map <Leader>f :Rfunctionaltest<CR>
+" map <Leader>tm :RTmodel<CR>
+" map <Leader>tc :RTcontroller<CR>
+" map <Leader>tv :RTview<CR>
+" map <Leader>tu :RTunittest<CR>
+" map <Leader>tf :RTfunctionaltest<CR>
+" map <Leader>sm :RSmodel<CR>
+" map <Leader>sc :RScontroller<CR>
+" map <Leader>sv :RSview<CR>
+" map <Leader>su :RSunittest<CR>
+" map <Leader>sf :RSfunctionaltest<CR>
 
+" Leader shortcuts for fuf
+map <Leader>ff :FufFile<CR>
+map <Leader>fb :FuFBuffer<CR>
 
 " Hide search highlighting
 map <Leader>h :set invhls <CR>
