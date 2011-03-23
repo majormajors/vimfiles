@@ -114,7 +114,7 @@ map <Leader>u :Runittest<CR>
 
 " Leader shortcuts for fuf
 map <Leader>ff :FufFile<CR>
-map <Leader>fb :FuFBuffer<CR>
+map <Leader>fb :FufBuffer<CR>
 
 " Hide search highlighting
 map <Leader>h :set invhls <CR>
