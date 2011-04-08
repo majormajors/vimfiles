@@ -175,10 +175,11 @@ if executable("ack")
 endif
 
 " Color scheme
+set background=dark
 if has("gui_running")
   colorscheme railscasts
 else
-  colorscheme asu1dark
+  colorscheme solarized
 endif
 
 " Numbers
