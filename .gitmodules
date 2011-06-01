@@ -52,3 +52,6 @@
 [submodule "bundle/cucumber"]
 	path = bundle/cucumber
 	url = https://github.com/tpope/vim-cucumber.git
+[submodule "bundle/LaTeX"]
+	path = bundle/LaTeX
+	url = https://github.com/jcf/vim-latex.git
