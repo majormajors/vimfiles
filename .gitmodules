@@ -55,3 +55,6 @@
 [submodule "bundle/LaTeX"]
 	path = bundle/LaTeX
 	url = https://github.com/jcf/vim-latex.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
