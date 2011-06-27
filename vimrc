@@ -88,6 +88,7 @@ set expandtab
 " Always display the status line
 set laststatus=2
 " set statusline="%{fugitive#statusline()}"
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 " \ is the leader character
 let mapleader = ","
