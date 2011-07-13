@@ -255,3 +255,9 @@ let g:NERDTreeShowHidden=1
 
 " fugitive.vim
 autocmd BufReadPost fugitive://* set bufhidden=delete " when opening a new fugitive buffer, close the old one
+
+" gist.vim
+let g:gist_clip_command            = 'pbcopy'
+let g:gist_detect_filetype         = 1
+let g:gist_open_browser_after_post = 1
+let g:gist_show_privates           = 1
