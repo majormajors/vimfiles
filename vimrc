@@ -249,6 +249,7 @@ map <Up> :wincmd k<CR>
 map <Down> :wincmd j<CR>
 map <Right> :wincmd l<CR>
 map <Left> :wincmd h<CR>
+map <Leader>= :wincmd =<CR>
 
 " NERDTree settings
 let g:NERDTreeShowHidden=1
