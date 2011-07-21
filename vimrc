@@ -240,6 +240,8 @@ if has("gui_macvim")
   map <D-9> :tabn 9<CR>
   map <D-M-Right> :tabnext<CR>
   map <D-M-Left> :tabprevious<CR>
+
+  set fuopt+=maxhorz " expand to the full screen width when entering fullscreen mode
 endif "has("gui_macvim")
 
 " map Ctrl-b to php syntax checker
