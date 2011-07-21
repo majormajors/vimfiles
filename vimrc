@@ -181,6 +181,7 @@ if has("gui_running")
   colorscheme railscasts
 else
   colorscheme solarized
+  highlight Normal ctermbg=Black
 endif
 
 " Numbers
