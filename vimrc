@@ -256,6 +256,7 @@ map <Leader>= :wincmd =<CR>
 
 " NERDTree settings
 let g:NERDTreeShowHidden=1
+map <C-R> :NERDTreeFind<CR>
 
 " fugitive.vim
 autocmd BufReadPost fugitive://* set bufhidden=delete " when opening a new fugitive buffer, close the old one
