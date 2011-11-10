@@ -206,7 +206,7 @@ set smartcase
 
 " Tags
 let g:Tlist_Use_Right_Window=1
-let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
+let g:Tlist_Ctags_Cmd="/opt/local/bin/ctags"
 set tags=./tags;
 
 let g:fuf_splitPathMatching=1
@@ -256,7 +256,8 @@ map <Leader>= :wincmd =<CR>
 
 " NERDTree settings
 let g:NERDTreeShowHidden=1
-map <C-R> :NERDTreeFind<CR>
+map <Leader>y :NERDTreeFind<CR>
+map <Leader>n :NERDTree<CR>
 
 " fugitive.vim
 autocmd BufReadPost fugitive://* set bufhidden=delete " when opening a new fugitive buffer, close the old one
