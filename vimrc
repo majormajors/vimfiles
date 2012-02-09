@@ -177,12 +177,11 @@ endif
 
 " Color scheme
 set background=dark
-if has("gui_running")
-  colorscheme railscasts
-else
-  colorscheme solarized
+colorscheme solarized
+
+if !has("gui_running")
   highlight Normal ctermbg=Black
-endif
+endif " !has("gui_running")
 
 " Numbers
 set number
