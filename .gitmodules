@@ -67,3 +67,6 @@
 [submodule "bundle/actionscript"]
 	path = bundle/actionscript
 	url = https://github.com/vim-scripts/actionscript.vim.git
+[submodule "bundle/VimClojure"]
+	path = bundle/VimClojure
+	url = https://github.com/vim-scripts/VimClojure.git
