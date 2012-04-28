@@ -275,3 +275,6 @@ map <Leader>dc :Markdown<CR>
 " ActionScript
 autocmd BufNewFile,BufReadPost *.as set filetype=actionscript
 map <Leader>ac :!mxmlc %<CR>
+
+" PowerLine
+let g:Powerline_symbols = 'unicode'
