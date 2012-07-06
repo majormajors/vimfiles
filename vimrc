@@ -278,3 +278,6 @@ map <Leader>ac :!mxmlc %<CR>
 
 " PowerLine
 let g:Powerline_symbols = 'unicode'
+
+" Numbers.vim
+nnoremap <F3> :NumbersToggle<CR>
