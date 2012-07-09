@@ -91,3 +91,6 @@
 [submodule "bundle/numbers.vim"]
 	path = bundle/numbers.vim
 	url = git://github.com/myusuf3/numbers.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab
