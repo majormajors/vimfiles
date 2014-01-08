@@ -155,7 +155,7 @@ nmap <F1> <Esc>
 imap <C-F> <C-R>=expand("%")<CR>
 
 " Maps autocomplete to tab
-imap <Tab> <C-N>
+imap <Tab> <C-X><C-]>
 
 imap <C-L> <Space>=><Space>
 
@@ -206,8 +206,9 @@ set smartcase
 
 " Tags
 let g:Tlist_Use_Right_Window=1
-let g:Tlist_Ctags_Cmd="/opt/local/bin/ctags"
-set tags=./tags;
+let g:Tlist_Ctags_Cmd="/usr/local/bin/ctags"
+set tags=./.git/ctags,./tags;
+set notr
 
 let g:fuf_splitPathMatching=1
 
