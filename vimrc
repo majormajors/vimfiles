@@ -71,8 +71,8 @@ if has("autocmd")
     \ endif
 
   " Automatically load .vimrc source when saved
-  autocmd BufWritePost .vimrc source $MYVIMRC
 
+  autocmd BufWritePost .vimrc source $MYVIMRC
   augroup END
 
 else
@@ -149,7 +149,7 @@ vmap P p :call setreg('"', getreg('0')) <CR>
 au! BufRead,BufNewFile *.haml         setfiletype haml
 
 " No Help, please
-nmap <F1> <Esc>
+"nmap <F1> <Esc>
 
 " Press ^F from insert mode to insert the current file name
 imap <C-F> <C-R>=expand("%")<CR>
@@ -178,7 +178,7 @@ endif
 
 " Color scheme
 set background=dark
-colorscheme solarized
+colorscheme codeschool
 
 if !has("gui_running")
   highlight Normal ctermbg=Black
