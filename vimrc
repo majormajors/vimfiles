@@ -178,7 +178,7 @@ endif
 
 " Color scheme
 set background=dark
-colorscheme codeschool
+colorscheme solarized
 
 if !has("gui_running")
   highlight Normal ctermbg=Black
@@ -255,8 +255,11 @@ map <Right> :wincmd l<CR>
 map <Left> :wincmd h<CR>
 map <Leader>= :wincmd =<CR>
 
+set fillchars+=vert:\ 
+
 " NERDTree settings
 let g:NERDTreeShowHidden=1
+let g:NERDTreeWinPos = "right"
 map <Leader>y :NERDTreeFind<CR>
 map <Leader>n :NERDTree<CR>
 
