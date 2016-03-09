@@ -281,8 +281,20 @@ map <Leader>dc :Markdown<CR>
 autocmd BufNewFile,BufReadPost *.as set filetype=actionscript
 map <Leader>ac :!mxmlc %<CR>
 
-" PowerLine
-let g:Powerline_symbols = 'unicode'
-
 " Numbers.vim
 nnoremap <F3> :NumbersToggle<CR>
+
+" vim ruby refactor
+nnoremap <leader>rap  :RAddParameter<cr>
+nnoremap <leader>rcpc :RConvertPostConditional<cr>
+nnoremap <leader>rel  :RExtractLet<cr>
+vnoremap <leader>rec  :RExtractConstant<cr>
+vnoremap <leader>relv :RExtractLocalVariable<cr>
+nnoremap <leader>rit  :RInlineTemp<cr>
+vnoremap <leader>rrlv :RRenameLocalVariable<cr>
+vnoremap <leader>rriv :RRenameInstanceVariable<cr>
+vnoremap <leader>rem  :RExtractMethod<cr>
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
